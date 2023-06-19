@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Views\" />
+    <None Remove="Views\Shared\" />
+    <None Remove="DAL\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Entities\" />
+    <None Remove="Views\Home\" />
+    <None Remove="Services\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Manage\" />
+    <None Remove="Areas\Manage\Controllers\" />
+    <None Remove="Areas\Manage\ViewModels\" />
+    <None Remove="Areas\Manage\Views\" />
+    <None Remove="Areas\Manage\Views\Shared\" />
+    <None Remove="Areas\Manage\Views\Dasboard\" />
+    <None Remove="Areas\Manage\Views\Genre\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="DAL\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Entities\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Services\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Manage\" />
+    <Folder Include="Areas\Manage\Controllers\" />
+    <Folder Include="Areas\Manage\ViewModels\" />
+    <Folder Include="Areas\Manage\Views\" />
+    <Folder Include="Areas\Manage\Views\Shared\" />
+    <Folder Include="Areas\Manage\Views\Dashboard\" />
+    <Folder Include="wwwroot\manage\" />
+    <Folder Include="wwwroot\manage\assets\" />
+    <Folder Include="Areas\Manage\Views\Genre\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.18" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\manage\" />
+    <Content Remove="wwwroot\manage\assets\" />
+  </ItemGroup>
+</Project>
