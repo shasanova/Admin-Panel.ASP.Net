@@ -1,4 +1,5 @@
-﻿@model Genre
+﻿
+@model Author
 @{
     ViewData["Title"] = "Create";
 }
@@ -6,14 +7,14 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <h1>Genre Create</h1>
+            <h1>Author Create</h1>
         </div>
         <div class="col-md-8">
             <form method="post" asp-action="create">
                 <div class="form-group">
-                    <label asp-for="GenreName">Name</label>
-                    <input asp-for="GenreName" class="form-control">
-                    <span class="text-danger" asp-validation-for="GenreName"></span>
+                    <label asp-for="Fullname">Name</label>
+                    <input asp-for="Fullname" class="form-control">
+                    <span class="text-danger" asp-validation-for="Fullname"></span>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

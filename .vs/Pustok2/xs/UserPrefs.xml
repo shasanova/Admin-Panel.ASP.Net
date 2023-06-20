@@ -1,43 +1,42 @@
 ﻿<Properties StartupConfiguration="{9CA5E4D3-F4BA-4177-A068-F16A9E643F2D}|Default">
-  <MonoDevelop.Ide.ItemProperties.Pustok2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pustok2/wwwroot/js/main.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pustok2/Program.cs">
     <Files>
-      <File FileName="Pustok2/Views/Shared/_BookTabContentPartial.cshtml" Line="48" Column="71" IsPinned="True" />
-      <File FileName="Pustok2/Controllers/BookController.cs" Line="25" Column="10" />
-      <File FileName="Pustok2/Services/LayoutService.cs" Line="2" Column="37" />
-      <File FileName="Pustok2/wwwroot/js/main.js" Line="16" Column="1" />
-      <File FileName="Pustok2/Views/Shared/_BookModalPartial.cshtml" Line="1" Column="1" />
-      <File FileName="Pustok2/Views/Shared/_Layout.cshtml" Line="242" Column="23" />
-      <File FileName="Pustok2/Views/Shared/_BasketPartial.cshtml" Line="32" Column="15" />
-      <File FileName="Pustok2/Controllers/HomeController.cs" Line="10" Column="1" />
+      <File FileName="Pustok2/Areas/Manage/Controllers/GenreController.cs" Line="59" Column="1" />
+      <File FileName="Pustok2/Areas/Manage/Controllers/AuthorController.cs" Line="80" Column="1" />
+      <File FileName="Pustok2/Areas/Manage/Views/Author/Index.cshtml" Line="1" Column="17" />
+      <File FileName="Pustok2/Areas/Manage/Views/Author/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="Pustok2/Areas/Manage/Views/Author/Create.cshtml" Line="8" Column="45" />
+      <File FileName="Pustok2/Program.cs" Line="25" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Pustok2" expanded="True">
             <Node name="Pustok2" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True">
-                  <Node name="main.js" selected="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Manage" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="ViewModels" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Author" expanded="True" />
+                    <Node name="Dashboard" expanded="True" />
+                    <Node name="Genre" expanded="True" />
+                    <Node name="Shared" expanded="True" />
+                  </Node>
                 </Node>
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Pustok2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -10,6 +10,9 @@ namespace Pustok2.Entities
         [Required]
         [MaxLength(50)]
         public string Fullname { get; set; }
+
+        public ICollection<Book> ?Books { get; set; }
+
     }
 }
 

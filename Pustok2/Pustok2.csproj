@@ -23,6 +23,7 @@
     <None Remove="Areas\Manage\Views\Shared\" />
     <None Remove="Areas\Manage\Views\Dasboard\" />
     <None Remove="Areas\Manage\Views\Genre\" />
+    <None Remove="Areas\Manage\Views\Author\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -44,6 +45,7 @@
     <Folder Include="wwwroot\manage\" />
     <Folder Include="wwwroot\manage\assets\" />
     <Folder Include="Areas\Manage\Views\Genre\" />
+    <Folder Include="Areas\Manage\Views\Author\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />

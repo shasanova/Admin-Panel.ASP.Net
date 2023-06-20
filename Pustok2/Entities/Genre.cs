@@ -11,7 +11,7 @@ namespace Pustok2.Entities
         [MaxLength(20, ErrorMessage ="MaxLength of Name is 20!")]
         public string GenreName { get; set; }
 
-        public List<Book> Books { get; set; }
+        public List<Book> Books { get; set; } = new List<Book>();
     }
 }
 
